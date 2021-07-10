@@ -62,16 +62,28 @@ a{
     color: hsl(0, 0%, 95%);
 }
 @media (min-width: 630px){
-    .project{
+    body{
         display: flex;
         justify-content: center;
+    }
+    .project{
+        display: flex;
+        margin: 0px;
     }
     .sedans{
         border-top-right-radius: 0em;
         border-bottom-left-radius: 0.5em;
+        max-width: 224px;
     }
     .luxary{
         border-top-right-radius: 0.5em;
         border-bottom-left-radius: 0em;
+        max-width: 224px;
+    }
+    .suvs{
+        max-width: 224px;
+    }
+    .button{
+        margin-top: 5em;
     }
 }
