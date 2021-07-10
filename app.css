@@ -1,0 +1,77 @@
+body{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    margin: 0px;
+}
+.project{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 4em 1em;
+}
+img{
+    width: 3.25em;
+    height: 2em;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 0px;
+    line-height: 1.75em;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5em 3em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5em 3em;
+}
+.luxary{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5em 3em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+.button{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 1.5em;
+    display: inline-block;
+    border-radius: 3.75em;
+    padding: 0.75em 2em;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: 300ms;
+}
+a{
+    text-decoration: none;
+}
+.sedans a{
+    color: hsl(31, 77%, 52%);
+}
+.suvs a{
+    color: hsl(184, 100%, 22%);
+}
+.luxary a{
+    color: hsl(179, 100%, 13%);
+}
+.button:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+@media (min-width: 630px){
+    .project{
+        display: flex;
+        justify-content: center;
+    }
+    .sedans{
+        border-top-right-radius: 0em;
+        border-bottom-left-radius: 0.5em;
+    }
+    .luxary{
+        border-top-right-radius: 0.5em;
+        border-bottom-left-radius: 0em;
+    }
+}
