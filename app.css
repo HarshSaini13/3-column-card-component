@@ -98,6 +98,11 @@ a{
         display: flex;
         justify-content: center;
     }
+    main{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
     .project{
         display: flex;
         margin: 0px;
