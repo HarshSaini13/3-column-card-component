@@ -61,7 +61,39 @@ a{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
 }
-@media (min-width: 630px){
+@media (min-width: 630px) and (max-width: 964px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .project{
+        display: flex;
+        margin: 0px;
+    }
+    .sedans{
+        border-top-right-radius: 0em;
+        border-bottom-left-radius: 0.5em;
+        max-width: 224px;
+    }
+    .luxary{
+        border-top-right-radius: 0.5em;
+        border-bottom-left-radius: 0em;
+        max-width: 224px;
+    }
+    .suvs{
+        max-width: 224px;
+    }
+    .button{
+        margin-top: 5em;
+    }
+    p{
+        height: 336px;
+    }
+    .button{
+        margin-top: 1em;
+    }
+}
+@media (min-width: 964px){
     body{
         display: flex;
         justify-content: center;
