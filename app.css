@@ -87,3 +87,8 @@ a{
         margin-top: 5em;
     }
 }
+@media (max-height: 465px){
+    .project{
+        margin: 2em 0em;
+    }
+}
